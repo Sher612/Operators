@@ -1,5 +1,5 @@
 /**
- * Unary operators are used to increment, decrement or eliminiate a value
+ * Unary operators are used to increment, decrement or eliminate a value
  * Unary operators only need a single operand
  * ++increases the value by 1; -- decreases the value by 1;
  * +presents the positive value; - negates the negative value
@@ -17,6 +17,10 @@ public class UnaryOperator {
 
         sum++;
         //sum is now 1
+        System.out.println(sum);
+
+        sum = -sum;
+        //sum is now -1
         System.out.println(sum);
 
         boolean result = false;
